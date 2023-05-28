@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="education_levels">
+        <item>Básico</item>
+        <item>Medio superior</item>
+        <item>Superior</item>
+    </string-array>
+
+    <string-array name="gender_options">
+        <item>Masculino</item>
+        <item>Femenino</item>
+        <item>No binario</item>
+        <item>Otro</item>
+    </string-array>
+</resources>

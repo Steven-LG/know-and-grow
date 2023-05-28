@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_explore"
+        android:icon="@drawable/placeholder_profile_picture"
+        android:title="@string/explorar" />
+    <item
+        android:id="@+id/menu_seminars"
+        android:icon="@drawable/placeholder_profile_picture"
+        android:title="@string/mis_seminarios" />
+    <item
+        android:id="@+id/menu_mentorship"
+        android:icon="@drawable/placeholder_profile_picture"
+        android:title="@string/mentor_as" />
+</menu>

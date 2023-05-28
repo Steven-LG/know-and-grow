@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mentoringFragment">
+    <fragment
+        android:id="@+id/mentorFragment"
+        android:name="com.example.lorem.MentorFragment"
+        android:label="MentorFragment" >
+        <argument
+            android:name="mentorId"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/mentoringFragment"
+        android:name="MentoringFragment"
+        android:label="MentoringFragment" >
+        <action
+            android:id="@+id/action_mentoringFragment_to_mentorFragment"
+            app:destination="@id/mentorFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mySeminarsFragment"
+        android:name="MySeminarsFragment"
+        android:label="MySeminarsFragment" />
+</navigation>
